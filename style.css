@@ -1,0 +1,114 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.left {
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    display: inline-block;
+}
+
+.left img {
+    width: 160px;
+    height: 140px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 1px;
+    font-size: 21px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 12px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 15px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: grey;
+}
+
+.container {
+    border-radius: 10px;
+    margin: 200px 150px;
+    padding: 75px 75px;
+    width: 30%;
+    float: right;
+    
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.fgroups input {
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width: 84%;
+    height: 20%;
+    padding: 5px;
+    margin: 11px auto;
+    border: 3px solid black;
+    font-size: 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container button {
+    display: block;
+    margin: 25px auto;
+    width: 86%;
+    height: 50px;
+}
